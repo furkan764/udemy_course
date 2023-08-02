@@ -23,4 +23,4 @@ int main()
     return 0;
 }
 // d145_delegating.cpp  ile karşılaştır
-// aynı işlevi gören daha kısa bir kodgit@github.com:furkan764/furkan764.git
+// aynı işlevi gören daha kısa bir kod
