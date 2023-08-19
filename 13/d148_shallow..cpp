@@ -4,9 +4,10 @@ class Shallow
 {
 private:
     int *data;
+
 public:
-    void set_data_value(int d){*data = d;}
-    int get_data_value(){return *data;}
+    void set_data_value(int d) { *data = d; }
+    int get_data_value() { return *data; }
     // Constructor
     Shallow(int d);
     // Copy constructor
@@ -15,25 +16,31 @@ public:
     ~Shallow();
 };
 
-Shallow::Shallow(int d){
+Shallow::Shallow(int d)
+{
     data = new int;
     *data = d;
 }
 
 Shallow::Shallow(const Shallow &source)
-    :data(source.data){
-        cout<<"Copy constructor - shallow copy"<<endl;
-    }
+    : data(source.data) //    : Shallow(*source.data) olursa deep copying?
 
-Shallow::~Shallow(){
+{
+    cout << "Copy constructor - shallow copy" << endl;
+}
+
+Shallow::~Shallow()
+{
     delete data;
-    cout<<"Destructor freeing data"<<endl;
+    cout << "Destructor freeing data" << endl;
 }
 
-void display_shallow(Shallow s){
-    cout<<s.get_data_value()<<endl;
+void display_shallow(Shallow s)
+{
+    cout << s.get_data_value() << endl;
 }
-int main(){
+int main()
+{
     Shallow obj1{100};
     display_shallow(obj1);
 

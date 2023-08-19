@@ -1,0 +1,7 @@
+Bellek Sızıntıları
+Dangling Pointers (Geçersiz İşaretçiler):
+Hatalı Bellek Kullanımı: 
+Ownership (Mülkiyet) ve Yaşam Döngüsü Sorunları:
+Çift Serbest Bırakma Hataları: 
+Null Pointer Sorunları: 
+bunlar raw pointerın yol açabileceği sorunların başlıkları

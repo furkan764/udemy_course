@@ -1,0 +1,12 @@
+bir objeye sadece bir tane unique_ptr<T> atanır
+assign veya copy edilemez
+std::unique_ptr<int> furkan;
+furkan.push_back(ptr) çalışmaz
+
+move edilir.
+furkan.push_back(std::move(ptr)); çalışır
+
+
+
+destroyer ile bearber yok olur.
+very efficent

@@ -32,7 +32,7 @@ int main() {
     person2.printInfo(); // Output: Name: Alice, Age: 30, Hobbies: reading swimming
 
     person2.addHobby("hiking");
-    person2.printInfo(); 
+    
     // Print person1's hobbies after modifying person2's hobbies
     person1.printInfo(); // Output: Name: Alice, Age: 30, Hobbies: reading swimming hiking
 

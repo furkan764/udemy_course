@@ -1,0 +1,10 @@
+algoritmalar (algoritm), taşıyıcılar (Containers) ve döngüler (Iterators ) olmak üzere üçe ayrılır.
+bu üçü biribirlerinden farklı olmasına rağmen kusursuz bir şekilde beraber çalılırlar.
+
+#include <bits/stdc++.h>  kullanılır
+#include <algoritm>
+
+#inlcude <map>
+#inlcude <vector>
+#inlcude <list>
+#inlcude <set>
