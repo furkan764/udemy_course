@@ -71,6 +71,7 @@
         "thread": "cpp",
         "cfenv": "cpp",
         "cinttypes": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "forward_list": "cpp"
     }
 }
